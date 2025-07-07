@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speak IN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Speak IN</h1>
+        <p>Don't just speak up — <strong>Speak IN</strong>.</p>
+    </header>
+
+    <main>
+        <section class="zip-entry">
+            <label for="zip">Enter your ZIP code:</label>
+            <input type="text" id="zip" maxlength="5" placeholder="e.g., 46201">
+            <button onclick="storeZip()">Submit</button>
+        </section>
+
+        <section class="issues">
+            <div class="issue-card">
+                <h2>Voter ID Restrictions</h2>
+                <p>Proposed bill would ban student IDs as valid voting identification.</p>
+                <button onclick="goToIssue('voter-id')">Call Now</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
