@@ -31,9 +31,27 @@ function storeZip() {
 
 function goToIssue(issueId) {
     const zip = sessionStorage.getItem('userZip');
+
     if (!zip) {
         alert('Please enter your ZIP code first.');
         return;
     }
-    alert(`Routing to contacts for ${issueId} in ZIP ${zip}`);
+
+    fetch('zip-data.json')
+        .then(response => response.json())
+        .then(data => {
+            if (!data[zip]) {
+                alert('That ZIP code is not currently supported. Please enter a valid Indiana ZIP.');
+                return;
+            }
+
+            // If valid, show routing message (or real action later)
+            const county = data[zip].county;
+            alert(`Routing to contacts for ${issueId} in ${county} County (ZIP ${zip})`);
+        })
+        .catch(error => {
+            console.error('Error loading zip-data.json:', error);
+            alert('Something went wrong trying to look up your district.');
+        });
 }
+
