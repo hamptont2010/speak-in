@@ -115,10 +115,6 @@ function showRepsByTown(town, container) {
     `).join('');
 }
 
-function goToIssue(issueId) {
-    alert(`Routing to contact options for issue: ${issueId}.\nDistrict selection will determine the recipient.`);
-}
-
 // Load issues and render them dynamically
 fetch('issues.json')
     .then(response => response.json())
@@ -140,16 +136,10 @@ function renderIssues(issues) {
 
         const expandButton = document.createElement('button');
         expandButton.textContent = 'View Talking Points';
-        expandButton.onclick = () => {
-            content.classList.toggle('expanded');
-            expandButton.textContent = content.classList.contains('expanded')
-                ? 'Hide Talking Points'
-                : 'View Talking Points';
-        };
 
         const content = document.createElement('div');
         content.className = 'issue-details';
-        content.style.display = 'none'; // initially hidden
+        content.style.display = 'none';
 
         const points = document.createElement('ul');
         issue.talkingPoints.forEach(point => {
@@ -161,26 +151,23 @@ function renderIssues(issues) {
         const scriptPara = document.createElement('p');
         scriptPara.innerHTML = `<strong>Suggested Script:</strong><br>${issue.script}`;
 
-        const callButton = document.createElement('button');
-        callButton.textContent = 'Call Now';
-        callButton.onclick = () => goToIssue(issue.id);
+        expandButton.onclick = () => {
+            content.classList.toggle('expanded');
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            expandButton.textContent = content.classList.contains('expanded')
+                ? 'Hide Talking Points'
+                : 'View Talking Points';
+        };
 
-        // Show/hide toggle behavior
         content.appendChild(points);
         content.appendChild(scriptPara);
-        content.style.display = 'none';
-        content.classList.add('collapsed');
-
-        expandButton.addEventListener('click', () => {
-            content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        });
 
         card.appendChild(title);
         card.appendChild(summary);
         card.appendChild(expandButton);
         card.appendChild(content);
-        card.appendChild(callButton);
 
         container.appendChild(card);
     });
 }
+
