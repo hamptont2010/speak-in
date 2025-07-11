@@ -37,9 +37,9 @@ function lookupDistrictGoogle() {
         return;
     }
 
-    const apiKey = "AIzaSyC7XuWDxJC-QDxw9dD9oA4UQ4iJv432t8w"; // 🔐 <- Replace with your actual API key
+    const apiKey = "AIzaSyC7XuWDxJC-QDxw9dD9oA4UQ4iJv432t8w"; // ✅ Your API key
     const encodedAddress = encodeURIComponent(address);
-    const url = `https://www.googleapis.com/civicinfo/v2/representatives?address=${encodedAddress}&key=${apiKey}&levels=administrativeArea1&roles=legislatorLowerBody&roles=legislatorUpperBody`;
+    const url = `https://www.googleapis.com/civicinfo/v2/representatives?address=${encodedAddress}&key=${apiKey}&roles=legislatorLowerBody&roles=legislatorUpperBody`;
 
     fetch(url)
         .then(response => response.json())
@@ -51,23 +51,23 @@ function lookupDistrictGoogle() {
             let senateRep = null;
 
             offices.forEach(office => {
-                if (office.name.includes("State House")) {
+                const name = office.name.toLowerCase();
+
+                if (name.includes("state house") || name.includes("house of representatives")) {
                     houseRep = officials[office.officialIndices[0]];
-                } else if (office.name.includes("State Senate")) {
+                } else if (name.includes("state senate") || name.includes("senate")) {
                     senateRep = officials[office.officialIndices[0]];
                 }
             });
 
-            if (!houseRep || !senateRep) {
+            if (!houseRep && !senateRep) {
                 confirmationEl.textContent = "Could not find state-level legislators for that address.";
                 return;
             }
 
             confirmationEl.innerHTML = `
-                🏛️ House: <strong>${houseRep.name}</strong><br>
-                📞 ${houseRep.phones?.[0] || "No phone listed"}<br><br>
-                🏛️ Senate: <strong>${senateRep.name}</strong><br>
-                📞 ${senateRep.phones?.[0] || "No phone listed"}
+                ${houseRep ? `🏛️ House: <strong>${houseRep.name}</strong><br>📞 ${houseRep.phones?.[0] || "No phone listed"}<br><br>` : ""}
+                ${senateRep ? `🏛️ Senate: <strong>${senateRep.name}</strong><br>📞 ${senateRep.phones?.[0] || "No phone listed"}` : ""}
             `;
         })
         .catch(error => {
@@ -75,6 +75,7 @@ function lookupDistrictGoogle() {
             confirmationEl.textContent = "Failed to retrieve representative information.";
         });
 }
+
 
 
 function goToIssue(issueId) {
