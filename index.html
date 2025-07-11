@@ -13,19 +13,37 @@
     </header>
 
     <main>
-        <section class="zip-entry">
-            <label for="zip">Enter your ZIP code:</label>
-            <input type="text" id="zip" maxlength="5" placeholder="e.g., 46201">
-            <button onclick="storeZip()">Submit</button>
-            <p id="zip-confirmation" style="margin-top: 10px;"></p>
+        <section class="district-select">
+            <h2>Select Your Districts</h2>
+
+            <label for="house-select">House District:</label>
+            <select id="house-select">
+                <option value="">-- Select House District --</option>
+            </select>
+
+            <label for="senate-select">Senate District:</label>
+            <select id="senate-select">
+                <option value="">-- Select Senate District --</option>
+            </select>
+
+            <div class="rep-info" id="house-info"></div>
+            <div class="rep-info" id="senate-info"></div>
+
+            <p style="margin-top: 10px;">
+                Not sure? <a href="https://iga.in.gov/information/find-legislators" target="_blank">Click here to find your districts</a>.
+            </p>
+
+            <label for="town-select">Find Reps by Town (optional):</label>
+            <select id="town-select">
+                <option value="">-- Select a Town --</option>
+            </select>
+
+            <div class="rep-info" id="town-info"></div>
         </section>
 
         <section class="issues">
-            <div class="issue-card">
-                <h2>Voter ID Restrictions</h2>
-                <p>Proposed bill would ban student IDs as valid voting identification.</p>
-                <button onclick="goToIssue('voter-id')">Call Now</button>
-            </div>
+            <h2>Issues You Can Call About</h2>
+            <div id="issues-container"></div>
         </section>
     </main>
 

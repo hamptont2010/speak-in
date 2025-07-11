@@ -1,0 +1,35 @@
+[
+    {
+        "id": "education",
+        "title": "Cutting of Degree",
+        "summary": "Six public higher-ed institutions in Indiana are eliminating, suspending, or merging over 400 low-enrollment degree programs\u2014about 19% of all offerings\u2014to comply with a new state law setting minimum graduate thresholds.",
+        "talkingPoints": [
+            "1. Disproportionately hits humanities, arts, and languages: Cuts include foreign languages, history, education, and fine-arts programs.",
+            "2. Lost academic breadth and flexibility: These niche programs, though smaller, enable innovation and personalized learning, key traits of a well-rounded university.",
+            "3. Speedy implementation lacked public input: Changes were pushed through hastily at the end of the budget session, with minimal transparency or faculty engagement ."
+        ],
+        "script": "Hi, my name is [Your Name], and I\u2019m a constituent in District [#].\n\nI\u2019m calling because I\u2019m concerned about Indiana\u2019s decision to cut hundreds of college degree programs, especially in areas like language, arts, and education. These programs may be small, but they matter. They serve communities, support teachers, and give students access to a broader, more meaningful education.\n\nI\u2019m asking you to push for a better approach: fund and protect low-enrollment programs that still serve the public good. These cuts are too fast, too broad, and risk narrowing what education means in our state. Please reconsider. Thank you for your time."
+    },
+    {
+        "id": "tolls",
+        "title": "Interstate Toll Expansion in Indiana",
+        "summary": "HB\u202f1461 (signed June\u202f2025) allows Indiana to seek federal approval to add tolls on all existing interstate highways statewide, making it the first state to do so.",
+        "talkingPoints": [
+            "1. Equity concerns: Tolling could disproportionately impact lower-income residents, daily commuters, and truckers.",
+            "2. Double taxation: Hoosiers already pay fuel taxes to maintain roads. Adding tolls is seen by many as paying twice for the same infrastructure.",
+            "3.Economic strain on trucking and logistics: Truckers may reroute through smaller roads to avoid tolls, increasing wear on local infrastructure and risking safety."
+        ],
+        "script": "Hi, my name is [Your Name], and I\u2019m a constituent in District [#].\n\nI\u2019m calling about Indiana's new law allowing tolls on existing interstate highways, which could significantly increase costs for residents, commuters, and businesses already facing rising expenses.\n\nWhile I support funding infrastructure, tolling shouldn\u2019t be a one-size-fits-all solution. I urge you to ensure any toll implementation includes exemptions or discounts for local drivers, safeguards against double taxation, and full transparency on where tolling would occur and how the revenue will be allocated. Thank you for your time.\n\nPlease advocate for a fair and accountable approach \u2014 we need to rebuild our roads, yes, but without unduly burdening Hoosiers. Thank you."
+    },
+    {
+        "id": "property-tax",
+        "title": "Indiana Property Tax Overhaul",
+        "summary": "Indiana lawmakers recently passed a sweeping overhaul of the state\u2019s property tax system, granting short-term relief to homeowners while drastically reducing funding for local governments.",
+        "talkingPoints": [
+            "1. Shifts tax burden to local governments - likely sparking cuts to vital services like schools, police, fire, parks, and libraries.",
+            "2.Undermines school funding - school districts could lose over $744\u202fmillion in property tax revenue from 2026\u20132028.",
+            "3. Short-term relief, long-term tradeoffs - while homeowners get credits up to $300, local infrastructure, services, and budgets are jeopardized."
+        ],
+        "script": "Hi, my name is [Your Name], and I\u2019m a constituent in District [#].\n\nI\u2019m calling because I\u2019m concerned about the recent changes to Indiana\u2019s property tax system. While relief is important, this plan threatens to defund local schools, emergency services, and public programs that working families rely on.\n\nI ask that you support more balanced solutions\u2014ones that help all residents, including renters, without sacrificing the services that keep our communities strong. Thank you for your time."
+    }
+]

@@ -29,3 +29,27 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.issue-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.issue-card h3 {
+    margin-top: 0;
+}
+
+.issue-details {
+    margin-top: 0.5em;
+}
+
+.issue-details ul {
+    padding-left: 1.2em;
+}
+
+button {
+    margin-top: 0.5em;
+}

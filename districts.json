@@ -1,14 +1,1056 @@
 {
     "house": {
+        "1": {
+            "name": "Carolyn Jackson",
+            "phone": "317-232-9875",
+            "email": "h1@iga.in.gov",
+            "party": "D",
+            "residence": "Hammond"
+        },
+        "2": {
+            "name": "Earl Harris Jr.",
+            "phone": "317-234-9048",
+            "email": "h2@iga.in.gov",
+            "party": "D",
+            "residence": "East Chicago"
+        },
+        "3": {
+            "name": "Ragen Hatcher",
+            "phone": "317-234-3101",
+            "email": "h3@iga.in.gov",
+            "party": "D",
+            "residence": "Gary"
+        },
+        "4": {
+            "name": "Edmond Soliday",
+            "phone": "317-234-9450",
+            "email": "h4@iga.in.gov",
+            "party": "R",
+            "residence": "Valparaiso"
+        },
+        "5": {
+            "name": "Dale DeVon",
+            "phone": "317-232-9769",
+            "email": "h5@iga.in.gov",
+            "party": "R",
+            "residence": "Granger"
+        },
+        "6": {
+            "name": "Maureen Bauer",
+            "phone": "317-234-3101",
+            "email": "h6@iga.in.gov",
+            "party": "D",
+            "residence": "South Bend"
+        },
+        "7": {
+            "name": "Jake Teshka",
+            "phone": "317-232-9643",
+            "email": "h7@iga.in.gov",
+            "party": "R",
+            "residence": "South Bend"
+        },
+        "8": {
+            "name": "Ryan Dvorak",
+            "phone": "317-232-9671",
+            "email": "h8@iga.in.gov",
+            "party": "D",
+            "residence": "South Bend"
+        },
+        "9": {
+            "name": "Pat Boy",
+            "phone": "317-233-5248",
+            "email": "h9@iga.in.gov",
+            "party": "D",
+            "residence": "Michigan City"
+        },
+        "10": {
+            "name": "Charles Moseley",
+            "phone": "317-232-9987",
+            "email": "h10@iga.in.gov",
+            "party": "D",
+            "residence": "Portage"
+        },
+        "11": {
+            "name": "Michael Aylesworth",
+            "phone": "317-234-9447",
+            "email": "h11@iga.in.gov",
+            "party": "R",
+            "residence": "Hebron"
+        },
+        "12": {
+            "name": "Mike Andrade",
+            "phone": "317-232-9834",
+            "email": "h12@iga.in.gov",
+            "party": "D",
+            "residence": "Munster"
+        },
+        "13": {
+            "name": "Matt Commons",
+            "phone": "317-232-9626",
+            "email": "h13@iga.in.gov",
+            "party": "R",
+            "residence": "Williamsport"
+        },
+        "14": {
+            "name": "Vernon Smith",
+            "phone": "317-232-9976",
+            "email": "h14@iga.in.gov",
+            "party": "D",
+            "residence": "Gary"
+        },
+        "15": {
+            "name": "Hal Slager",
+            "phone": "317-232-9651",
+            "email": "h15@iga.in.gov",
+            "party": "R",
+            "residence": "Schererville"
+        },
+        "16": {
+            "name": "Kendell Culp",
+            "phone": "317-232-9819",
+            "email": "h16@iga.in.gov",
+            "party": "R",
+            "residence": "Rensselaer"
+        },
+        "17": {
+            "name": "Jack Jordan",
+            "phone": "317-232-9753",
+            "email": "h17@iga.in.gov",
+            "party": "R",
+            "residence": "Bremen"
+        },
+        "18": {
+            "name": "David Abbott",
+            "phone": "317-232-9762",
+            "email": "h18@iga.in.gov",
+            "party": "R",
+            "residence": "Rome City"
+        },
+        "19": {
+            "name": "Julie Olthoff",
+            "phone": "317-232-9863",
+            "email": "h19@iga.in.gov",
+            "party": "R",
+            "residence": "Crown Point"
+        },
+        "20": {
+            "name": "Jim Pressel",
+            "phone": "317-232-9850",
+            "email": "h20@iga.in.gov",
+            "party": "R",
+            "residence": "LaPorte"
+        },
+        "21": {
+            "name": "Timothy Wesco",
+            "phone": "317-232-9753",
+            "email": "h21@iga.in.gov",
+            "party": "R",
+            "residence": "Mishawaka"
+        },
+        "22": {
+            "name": "Craig Snow",
+            "phone": "317-234-2993",
+            "email": "h22@iga.in.gov",
+            "party": "R",
+            "residence": "Warsaw"
+        },
+        "23": {
+            "name": "Ethan Manning",
+            "phone": "317-232-9620",
+            "email": "h23@iga.in.gov",
+            "party": "R",
+            "residence": "Macy"
+        },
+        "24": {
+            "name": "Hunter Smith",
+            "phone": "317-232-9720",
+            "email": "h24@iga.in.gov",
+            "party": "R",
+            "residence": "Zionsville"
+        },
+        "25": {
+            "name": "Becky Cash",
+            "phone": "317-232-9706",
+            "email": "h25@iga.in.gov",
+            "party": "R",
+            "residence": "Zionsville"
+        },
+        "26": {
+            "name": "Chris Campbell",
+            "phone": "317-234-3101",
+            "email": "h26@iga.in.gov",
+            "party": "D",
+            "residence": "West Lafayette"
+        },
+        "27": {
+            "name": "Sheila Klinker",
+            "phone": "317-232-9875",
+            "email": "h27@iga.in.gov",
+            "party": "D",
+            "residence": "Lafayette"
+        },
+        "28": {
+            "name": "Jeff Thompson",
+            "phone": "317-232-9651",
+            "email": "h28@iga.in.gov",
+            "party": "R",
+            "residence": "Lizton"
+        },
+        "29": {
+            "name": "Alaina Shonkwiler",
+            "phone": "317-232-9611",
+            "email": "h29@iga.in.gov",
+            "party": "R",
+            "residence": "Noblesville"
+        },
+        "30": {
+            "name": "Mike Karickhoff",
+            "phone": "317-232-9802",
+            "email": "h30@iga.in.gov",
+            "party": "R",
+            "residence": "Kokomo"
+        },
+        "31": {
+            "name": "Lori Goss-Reaves",
+            "phone": "317-232-9509",
+            "email": "h31@iga.in.gov",
+            "party": "R",
+            "residence": "Marion"
+        },
+        "32": {
+            "name": "Victoria Garcia Wilburn",
+            "phone": "(800) 382-9842",
+            "email": "h32@iga.in.gov",
+            "party": "D",
+            "residence": "Fishers"
+        },
+        "33": {
+            "name": "J. D. Prescott",
+            "phone": "317-234-3827",
+            "email": "h33@iga.in.gov",
+            "party": "R",
+            "residence": "Winchester"
+        },
+        "34": {
+            "name": "Sue Errington",
+            "phone": "317-233-5248",
+            "email": "h34@iga.in.gov",
+            "party": "D",
+            "residence": "Muncie"
+        },
+        "35": {
+            "name": "Elizabeth Rowray",
+            "phone": "317-232-9816",
+            "email": "h35@iga.in.gov",
+            "party": "R",
+            "residence": "Yorktown"
+        },
+        "36": {
+            "name": "Kyle Pierce",
+            "phone": "317-234-0931",
+            "email": "h36@iga.in.gov",
+            "party": "R",
+            "residence": "Anderson"
+        },
+        "37": {
+            "name": "Todd Huston",
+            "phone": "317-232-9677",
+            "email": "h37@iga.in.gov",
+            "party": "R",
+            "residence": "Fishers"
+        },
+        "38": {
+            "name": "Heath VanNatter",
+            "phone": "317-232-9643",
+            "email": "h38@iga.in.gov",
+            "party": "R",
+            "residence": "Frankfort"
+        },
+        "39": {
+            "name": "Danny Lopez",
+            "phone": "317-232-9735",
+            "email": "h39@iga.in.gov",
+            "party": "R",
+            "residence": "Carmel"
+        },
+        "40": {
+            "name": "Greg Steuerwald",
+            "phone": "317-232-9620",
+            "email": "h40@iga.in.gov",
+            "party": "R",
+            "residence": "Brownsburg"
+        },
+        "41": {
+            "name": "Mark Genda",
+            "phone": "317-232-9767",
+            "email": "h41@iga.in.gov",
+            "party": "R",
+            "residence": "Frankfort"
+        },
+        "42": {
+            "name": "Tim Yocum",
+            "phone": "317-232-9986",
+            "email": "h42@iga.in.gov",
+            "party": "R",
+            "residence": "Clinton"
+        },
+        "43": {
+            "name": "Tonya Pfaff",
+            "phone": "317-232-9798",
+            "email": "h43@iga.in.gov",
+            "party": "D",
+            "residence": "Terre Haute"
+        },
+        "44": {
+            "name": "Beau Baird",
+            "phone": "317-232-9981",
+            "email": "h44@iga.in.gov",
+            "party": "R",
+            "residence": "Greencastle"
+        },
+        "45": {
+            "name": "Bruce Borders",
+            "phone": "317-232-9753",
+            "email": "h45@iga.in.gov",
+            "party": "R",
+            "residence": "Jasonville"
+        },
+        "46": {
+            "name": "Bob Heaton",
+            "phone": "317-232-9815",
+            "email": "h46@iga.in.gov",
+            "party": "R",
+            "residence": "Riley"
+        },
+        "47": {
+            "name": "Robb Greene",
+            "phone": "317-232-9789",
+            "email": "h47@iga.in.gov",
+            "party": "R",
+            "residence": "Shelby"
+        },
+        "48": {
+            "name": "Douglas Miller",
+            "phone": "317-232-9850",
+            "email": "h48@iga.in.gov",
+            "party": "R",
+            "residence": "Elkhart"
+        },
+        "49": {
+            "name": "Joanna King",
+            "phone": "317-232-9657",
+            "email": "h49@iga.in.gov",
+            "party": "R",
+            "residence": "Middlebury"
+        },
+        "50": {
+            "name": "Lorissa Sweet",
+            "phone": "317-232-9734",
+            "email": "h50@iga.in.gov",
+            "party": "R",
+            "residence": "Wabash"
+        },
+        "51": {
+            "name": "Tony Isa",
+            "phone": "317-232-9736",
+            "email": "h51@iga.in.gov",
+            "party": "R",
+            "residence": "Angola"
+        },
+        "52": {
+            "name": "Ben Smaltz",
+            "phone": "317-232-9620",
+            "email": "h52@iga.in.gov",
+            "party": "R",
+            "residence": "Auburn"
+        },
+        "53": {
+            "name": "Ethan Lawson",
+            "phone": "317-232-9747",
+            "email": "h53@iga.in.gov",
+            "party": "R",
+            "residence": "Greenfield"
+        },
+        "54": {
+            "name": "Cory Criswell",
+            "phone": "317-232-9850",
+            "email": "h54@iga.in.gov",
+            "party": "R",
+            "residence": "Middletown"
+        },
+        "55": {
+            "name": "Lindsay Patterson",
+            "phone": "317-232-9740",
+            "email": "h55@iga.in.gov",
+            "party": "R",
+            "residence": "Franklin"
+        },
+        "56": {
+            "name": "Bradford Barrett",
+            "phone": "317-232-9643",
+            "email": "h56@iga.in.gov",
+            "party": "R",
+            "residence": "Richmond"
+        },
+        "57": {
+            "name": "Craig Haggard",
+            "phone": "317-232-9597",
+            "email": "h57@iga.in.gov",
+            "party": "R",
+            "residence": "Mooresville"
+        },
+        "58": {
+            "name": "Michelle Davis",
+            "phone": "317-234-9447",
+            "email": "h58@iga.in.gov",
+            "party": "R",
+            "residence": "Whiteland"
+        },
+        "59": {
+            "name": "Ryan Lauer",
+            "phone": "317-232-9657",
+            "email": "h59@iga.in.gov",
+            "party": "R",
+            "residence": "Columbus"
+        },
+        "60": {
+            "name": "Peggy Mayfield",
+            "phone": "317-232-9802",
+            "email": "h60@iga.in.gov",
+            "party": "R",
+            "residence": "Martinsville"
+        },
+        "61": {
+            "name": "Matt Pierce",
+            "phone": "317-233-5248",
+            "email": "h61@iga.in.gov",
+            "party": "D",
+            "residence": "Bloomington"
+        },
+        "62": {
+            "name": "Dave Hall",
+            "phone": "317-232-9978",
+            "email": "h62@iga.in.gov",
+            "party": "R",
+            "residence": "Norman"
+        },
+        "63": {
+            "name": "Shane Lindauer",
+            "phone": "317-234-9028",
+            "email": "h63@iga.in.gov",
+            "party": "R",
+            "residence": "Jasper"
+        },
+        "64": {
+            "name": "Matt Hostettler",
+            "phone": "317-232-9648",
+            "email": "h64@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Branch"
+        },
+        "65": {
+            "name": "Christopher May",
+            "phone": "317-232-9981",
+            "email": "h65@iga.in.gov",
+            "party": "R",
+            "residence": "Bedford"
+        },
+        "66": {
+            "name": "Zach Payne",
+            "phone": "317-234-9028",
+            "email": "h66@iga.in.gov",
+            "party": "R",
+            "residence": "Charlestown"
+        },
+        "67": {
+            "name": "Alex Zimmerman",
+            "phone": "317-232-9783",
+            "email": "h67@iga.in.gov",
+            "party": "R",
+            "residence": "North Vernon"
+        },
+        "68": {
+            "name": "Garrett Bascom",
+            "phone": "317-232-9696",
+            "email": "h68@iga.in.gov",
+            "party": "R",
+            "residence": "Lawrenceburg"
+        },
+        "69": {
+            "name": "Jim Lucas",
+            "phone": "317-234-9447",
+            "email": "h69@iga.in.gov",
+            "party": "R",
+            "residence": "Seymour"
+        },
+        "70": {
+            "name": "Karen Engleman",
+            "phone": "317-232-9769",
+            "email": "h70@iga.in.gov",
+            "party": "R",
+            "residence": "Georgetown"
+        },
+        "71": {
+            "name": "Wendy Dant Chesser",
+            "phone": "1-800-382-9842",
+            "email": "h71@iga.in.gov",
+            "party": "D",
+            "residence": "Jeffersonville"
+        },
         "72": {
             "name": "Edward Clere",
-            "phone": "800-382-9841"
+            "phone": "317-232-9657",
+            "email": "h72@iga.in.gov",
+            "party": "R",
+            "residence": "New Albany"
+        },
+        "73": {
+            "name": "Jennifer Meltzer",
+            "phone": "317-232-9782",
+            "email": "h73@iga.in.gov",
+            "party": "R",
+            "residence": "Shelbyville"
+        },
+        "74": {
+            "name": "Stephen Bartels",
+            "phone": "317-232-9802",
+            "email": "h74@iga.in.gov",
+            "party": "R",
+            "residence": "Eckerty"
+        },
+        "75": {
+            "name": "Cindy Ledbetter",
+            "phone": "317-232-9833",
+            "email": "h75@iga.in.gov",
+            "party": "R",
+            "residence": "Newburgh"
+        },
+        "76": {
+            "name": "Wendy McNamara",
+            "phone": "317-232-9815",
+            "email": "h76@iga.in.gov",
+            "party": "R",
+            "residence": "Mount Vernon"
+        },
+        "77": {
+            "name": "Alex Burton",
+            "phone": "1-800-382-9842",
+            "email": "h77@iga.in.gov",
+            "party": "R",
+            "residence": "Evansville"
+        },
+        "78": {
+            "name": "Tim O'Brien",
+            "phone": "317-232-9759",
+            "email": "h78@iga.in.gov",
+            "party": "R",
+            "residence": "Evansville"
+        },
+        "79": {
+            "name": "Matt Lehman",
+            "phone": "317-234-9380",
+            "email": "h79@iga.in.gov",
+            "party": "R",
+            "residence": "Berne"
+        },
+        "80": {
+            "name": "Phil GiaQuinta",
+            "phone": "317-232-9628",
+            "email": "h80@iga.in.gov",
+            "party": "D",
+            "residence": "Fort Wayne"
+        },
+        "81": {
+            "name": "Martin Carbaugh",
+            "phone": "317-234-9028",
+            "email": "h81@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Wayne"
+        },
+        "82": {
+            "name": "Kyle Miller",
+            "phone": "1-800-382-9842",
+            "email": "h82@iga.in.gov",
+            "party": "D",
+            "residence": "Fort Wayne"
+        },
+        "83": {
+            "name": "Christopher Judy",
+            "phone": "317-232-9863",
+            "email": "h83@iga.in.gov",
+            "party": "R",
+            "residence": "Aboite"
+        },
+        "84": {
+            "name": "Robert Morris",
+            "phone": "317-232-9619",
+            "email": "h84@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Wayne"
+        },
+        "85": {
+            "name": "Dave Heine",
+            "phone": "317-232-9816",
+            "email": "h85@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Wayne"
+        },
+        "86": {
+            "name": "Ed DeLaney",
+            "phone": "317-232-9671",
+            "email": "h86@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "87": {
+            "name": "Carey Hamilton",
+            "phone": "317-232-9794",
+            "email": "h87@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "88": {
+            "name": "Chris Jeter",
+            "phone": "317-234-3827",
+            "email": "h88@iga.in.gov",
+            "party": "R",
+            "residence": "Fishers"
+        },
+        "89": {
+            "name": "Mitch Gore",
+            "phone": "317-232-9794",
+            "email": "h89@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "90": {
+            "name": "Andrew Ireland",
+            "phone": "317-232-9708",
+            "email": "h90@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "91": {
+            "name": "Robert Behning",
+            "phone": "317-232-9648",
+            "email": "h91@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "92": {
+            "name": "Renee Pack",
+            "phone": "317-232-9987",
+            "email": "h92@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "93": {
+            "name": "Julie McGuire",
+            "phone": "317-232-9791",
+            "email": "h93@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "94": {
+            "name": "Cherrish Pryor",
+            "phone": "317-232-9798",
+            "email": "h94@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "95": {
+            "name": "John Bartlett",
+            "phone": "317-232-9671",
+            "email": "h95@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "96": {
+            "name": "Greg Porter",
+            "phone": "317-232-9875",
+            "email": "h96@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "97": {
+            "name": "Justin Moed",
+            "phone": "317-232-9794",
+            "email": "h97@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "98": {
+            "name": "Robin Shackleford",
+            "phone": "317-232-9827",
+            "email": "h98@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "99": {
+            "name": "Vanessa Summers",
+            "phone": "317-232-9827",
+            "email": "h99@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "100": {
+            "name": "Blake Johnson",
+            "phone": "317-232-9827",
+            "email": "h100@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
         }
     },
     "senate": {
+        "1": {
+            "name": "Dan Dernulc",
+            "phone": "317-232-9414",
+            "email": "s1@iga.in.gov",
+            "party": "R",
+            "residence": "Highland"
+        },
+        "2": {
+            "name": "Lonnie Randolph",
+            "phone": "317-232-9532",
+            "email": "s2@iga.in.gov",
+            "party": "D",
+            "residence": "East Chicago"
+        },
+        "3": {
+            "name": "Mark Spencer",
+            "phone": "317-232-9847",
+            "email": "s3@iga.in.gov",
+            "party": "D",
+            "residence": "Gary"
+        },
+        "4": {
+            "name": "Rodney Pol Jr.",
+            "phone": "317-232-9404",
+            "email": "s4@iga.in.gov",
+            "party": "D",
+            "residence": "Chesterton"
+        },
+        "5": {
+            "name": "Ed Charbonneau",
+            "phone": "317-232-9494",
+            "email": "s5@iga.in.gov",
+            "party": "R",
+            "residence": "Valparaiso"
+        },
+        "6": {
+            "name": "Rick Niemeyer",
+            "phone": "317-232-9489",
+            "email": "s6@iga.in.gov",
+            "party": "R",
+            "residence": "Lowell"
+        },
+        "7": {
+            "name": "Brian Buchanan",
+            "phone": "317-234-9441",
+            "email": "s7@iga.in.gov",
+            "party": "R",
+            "residence": "Lebanon"
+        },
+        "8": {
+            "name": "Mike Bohacek",
+            "phone": "317-232-9533",
+            "email": "s8@iga.in.gov",
+            "party": "R",
+            "residence": "Michiana Shores"
+        },
+        "9": {
+            "name": "Ryan Mishler",
+            "phone": "317-232-9814",
+            "email": "s9@iga.in.gov",
+            "party": "R",
+            "residence": "Bremen"
+        },
+        "10": {
+            "name": "David L. Niezgodski",
+            "phone": "317-232-9534",
+            "email": "s10@iga.in.gov",
+            "party": "D",
+            "residence": "South Bend"
+        },
+        "11": {
+            "name": "Linda Rogers",
+            "phone": "317-234-9443",
+            "email": "s11@iga.in.gov",
+            "party": "R",
+            "residence": "Granger"
+        },
+        "12": {
+            "name": "Blake Doriot",
+            "phone": "317-232-9808",
+            "email": "s12@iga.in.gov",
+            "party": "R",
+            "residence": "New Paris"
+        },
+        "13": {
+            "name": "Sue Glick",
+            "phone": "317-232-9493",
+            "email": "s13@iga.in.gov",
+            "party": "R",
+            "residence": "LaGrange"
+        },
+        "14": {
+            "name": "Tyler Johnson",
+            "phone": "317-232-9466",
+            "email": "s14@iga.in.gov",
+            "party": "R",
+            "residence": "Grabill"
+        },
+        "15": {
+            "name": "Liz Brown",
+            "phone": "317-232-9497",
+            "email": "s15@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Wayne"
+        },
+        "16": {
+            "name": "Justin Busch",
+            "phone": "317-232-9488",
+            "email": "s16@iga.in.gov",
+            "party": "R",
+            "residence": "Fort Wayne"
+        },
+        "17": {
+            "name": "Andy Zay",
+            "phone": "317-234-9441",
+            "email": "s17@iga.in.gov",
+            "party": "R",
+            "residence": "Huntington"
+        },
+        "18": {
+            "name": "Stacey Donato",
+            "phone": "317-234-9054",
+            "email": "s18@iga.in.gov",
+            "party": "R",
+            "residence": "Logansport"
+        },
+        "19": {
+            "name": "Travis Holdman",
+            "phone": "317-232-9453",
+            "email": "s19@iga.in.gov",
+            "party": "R",
+            "residence": "Markle"
+        },
+        "20": {
+            "name": "Scott Baldwin",
+            "phone": "317-232-9541",
+            "email": "s20@iga.in.gov",
+            "party": "R",
+            "residence": "Noblesville"
+        },
+        "21": {
+            "name": "James R. Buck",
+            "phone": "317-232-9466",
+            "email": "s21@iga.in.gov",
+            "party": "R",
+            "residence": "Kokomo"
+        },
+        "22": {
+            "name": "Ron Alting",
+            "phone": "317-232-9808",
+            "email": "s22@iga.in.gov",
+            "party": "R",
+            "residence": "Lafayette"
+        },
+        "23": {
+            "name": "Spencer Deery",
+            "phone": "317-232-9517",
+            "email": "s23@iga.in.gov",
+            "party": "R",
+            "residence": "West Lafayette"
+        },
+        "24": {
+            "name": "Brett Clark",
+            "phone": "317-232-9490",
+            "email": "s24@iga.in.gov",
+            "party": "R",
+            "residence": "Avon"
+        },
+        "25": {
+            "name": "Mike Gaskill",
+            "phone": "317-234-9443",
+            "email": "s25@iga.in.gov",
+            "party": "R",
+            "residence": "Anderson"
+        },
+        "26": {
+            "name": "Scott Alexander",
+            "phone": "317-232-9984",
+            "email": "s26@iga.in.gov",
+            "party": "R",
+            "residence": "Muncie"
+        },
+        "27": {
+            "name": "Jeff Raatz",
+            "phone": "317-233-0930",
+            "email": "s27@iga.in.gov",
+            "party": "R",
+            "residence": "Centerville"
+        },
+        "28": {
+            "name": "Michael Crider",
+            "phone": "317-234-9054",
+            "email": "s28@iga.in.gov",
+            "party": "R",
+            "residence": "Greenfield"
+        },
+        "29": {
+            "name": "J. D. Ford",
+            "phone": "317-232-9532",
+            "email": "s29@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "30": {
+            "name": "Fady Qaddoura",
+            "phone": "317-232-9404",
+            "email": "s30@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "31": {
+            "name": "Kyle Walker",
+            "phone": "317-232-9488",
+            "email": "s31@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "32": {
+            "name": "Aaron Freeman",
+            "phone": "317-232-9490",
+            "email": "s32@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "33": {
+            "name": "Greg Taylor",
+            "phone": "317-232-9534",
+            "email": "s33@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "34": {
+            "name": "La Keisha Jackson",
+            "phone": "317-232-9847",
+            "email": "s34@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
+        "35": {
+            "name": "R. Michael Young",
+            "phone": "317-232-9517",
+            "email": "s35@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "36": {
+            "name": "Cyndi Carrasco",
+            "phone": "317-232-9533",
+            "email": "s36@iga.in.gov",
+            "party": "R",
+            "residence": "Indianapolis"
+        },
+        "37": {
+            "name": "Rodric Bray",
+            "phone": "317-232-9416",
+            "email": "s37@iga.in.gov",
+            "party": "R",
+            "residence": "Martinsville"
+        },
+        "38": {
+            "name": "Greg Goode",
+            "phone": "317-233-0930",
+            "email": "s38@iga.in.gov",
+            "party": "R",
+            "residence": "Terre Haute"
+        },
+        "39": {
+            "name": "Eric Bassler",
+            "phone": "317-234-9425",
+            "email": "s39@iga.in.gov",
+            "party": "R",
+            "residence": "Washington"
+        },
+        "40": {
+            "name": "Shelli Yoder",
+            "phone": "317-232-9427",
+            "email": "s40@iga.in.gov",
+            "party": "D",
+            "residence": "Bloomington"
+        },
+        "41": {
+            "name": "Greg Walker",
+            "phone": "317-232-9489",
+            "email": "s41@iga.in.gov",
+            "party": "R",
+            "residence": "Columbus"
+        },
+        "42": {
+            "name": "Jean Leising",
+            "phone": "317-232-9493",
+            "email": "s42@iga.in.gov",
+            "party": "R",
+            "residence": "Oldenburg"
+        },
+        "43": {
+            "name": "Randy Maxwell",
+            "phone": "317-232-9984",
+            "email": "s43@iga.in.gov",
+            "party": "R",
+            "residence": "Guilford"
+        },
+        "44": {
+            "name": "Eric Koch",
+            "phone": "317-234-9425",
+            "email": "s44@iga.in.gov",
+            "party": "R",
+            "residence": "Bedford"
+        },
+        "45": {
+            "name": "Chris Garten",
+            "phone": "317-232-9840",
+            "email": "s45@iga.in.gov",
+            "party": "R",
+            "residence": "Scottsburg"
+        },
+        "46": {
+            "name": "Andrea Hunley",
+            "phone": "317-232-9491",
+            "email": "s46@iga.in.gov",
+            "party": "D",
+            "residence": "Indianapolis"
+        },
         "47": {
             "name": "Gary Byrne",
-            "phone": "800-382-9467"
+            "phone": "317-232-9497",
+            "email": "s47@iga.in.gov",
+            "party": "R",
+            "residence": "Salem"
+        },
+        "48": {
+            "name": "Daryl Schmitt",
+            "phone": "317-232-9541",
+            "email": "s48@iga.in.gov",
+            "party": "R",
+            "residence": "Jasper"
+        },
+        "49": {
+            "name": "Jim Tomes",
+            "phone": "317-232-9414",
+            "email": "s49@iga.in.gov",
+            "party": "R",
+            "residence": "Evansville"
+        },
+        "50": {
+            "name": "Vaneta Becker",
+            "phone": "317-232-9494",
+            "email": "s50@iga.in.gov",
+            "party": "R",
+            "residence": "Evansville"
         }
     }
 }
