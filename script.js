@@ -28,55 +28,6 @@ function storeZip() {
     }
 }
 
-function lookupDistrictGoogle() {
-    const address = document.getElementById('address').value;
-    const confirmationEl = document.getElementById('district-confirmation');
-
-    if (!address || address.trim().length < 5) {
-        alert("Please enter a valid address.");
-        return;
-    }
-
-    const apiKey = "AIzaSyC7XuWDxJC-QDxw9dD9oA4UQ4iJv432t8w"; // ✅ Your API key
-    const encodedAddress = encodeURIComponent(address);
-    const url = `https://www.googleapis.com/civicinfo/v2/representatives?address=${encodedAddress}&key=${apiKey}&roles=legislatorLowerBody&roles=legislatorUpperBody`;
-
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            const offices = data.offices || [];
-            const officials = data.officials || [];
-
-            let houseRep = null;
-            let senateRep = null;
-
-            offices.forEach(office => {
-                const name = office.name.toLowerCase();
-
-                if (name.includes("state house") || name.includes("house of representatives")) {
-                    houseRep = officials[office.officialIndices[0]];
-                } else if (name.includes("state senate") || name.includes("senate")) {
-                    senateRep = officials[office.officialIndices[0]];
-                }
-            });
-
-            if (!houseRep && !senateRep) {
-                confirmationEl.textContent = "Could not find state-level legislators for that address.";
-                return;
-            }
-
-            confirmationEl.innerHTML = `
-                ${houseRep ? `🏛️ House: <strong>${houseRep.name}</strong><br>📞 ${houseRep.phones?.[0] || "No phone listed"}<br><br>` : ""}
-                ${senateRep ? `🏛️ Senate: <strong>${senateRep.name}</strong><br>📞 ${senateRep.phones?.[0] || "No phone listed"}` : ""}
-            `;
-        })
-        .catch(error => {
-            console.error("Google Civic API Error:", error);
-            confirmationEl.textContent = "Failed to retrieve representative information.";
-        });
-}
-
-
 
 function goToIssue(issueId) {
     const zip = sessionStorage.getItem('userZip');
@@ -103,4 +54,3 @@ function goToIssue(issueId) {
             alert('Something went wrong trying to look up your district.');
         });
 }
-
