@@ -13,6 +13,9 @@ window.onload = () => {
         });
 };
 
+console.log("Script loaded!");
+
+
 function populateDistrictDropdowns(data) {
     const houseSelect = document.getElementById('house-select');
     const senateSelect = document.getElementById('senate-select');
