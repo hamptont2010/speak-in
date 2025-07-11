@@ -28,6 +28,59 @@ function storeZip() {
     }
 }
 
+function lookupDistrict() {
+    const address = document.getElementById('address').value;
+    const confirmationEl = document.getElementById('district-confirmation');
+
+    if (!address || address.trim().length < 5) {
+        alert("Please enter a valid address.");
+        return;
+    }
+
+    // Encode and build Census Geocoder URL
+    const baseURL = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress";
+    const params = new URLSearchParams({
+        address: address,
+        benchmark: "Public_AR_Current",
+        vintage: "Current_Current",
+        format: "json"
+    });
+
+    fetch(`${baseURL}?${params}`)
+        .then(response => response.json())
+        .then(data => {
+            const geo = data.result?.geographies;
+            const house = geo?.["State Legislative Districts - Lower"]?.[0]?.NAME;
+            const senate = geo?.["State Legislative Districts - Upper"]?.[0]?.NAME;
+
+            if (!house || !senate) {
+                confirmationEl.textContent = "Couldn't find districts for that address.";
+                return;
+            }
+
+            confirmationEl.textContent = `🏛️ House District: ${house} | Senate District: ${senate}`;
+
+            // Now load local rep info from districts.json
+            fetch("districts.json")
+                .then(resp => resp.json())
+                .then(districtData => {
+                    const rep = districtData.house[house];
+                    const sen = districtData.senate[senate];
+
+                    if (rep && sen) {
+                        alert(`Your Rep is ${rep.name} (${rep.phone})\nYour Senator is ${sen.name} (${sen.phone})`);
+                        // Optionally: store in sessionStorage if needed
+                    } else {
+                        alert("Found district numbers, but couldn’t match to names in database.");
+                    }
+                });
+        })
+        .catch(err => {
+            console.error("Error in geocoder:", err);
+            confirmationEl.textContent = "Failed to retrieve district info.";
+        });
+}
+
 
 function goToIssue(issueId) {
     const zip = sessionStorage.getItem('userZip');
