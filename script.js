@@ -28,7 +28,7 @@ function storeZip() {
     }
 }
 
-function lookupDistrict() {
+function lookupDistrictGoogle() {
     const address = document.getElementById('address').value;
     const confirmationEl = document.getElementById('district-confirmation');
 
@@ -37,47 +37,42 @@ function lookupDistrict() {
         return;
     }
 
-    // Encode and build Census Geocoder URL
-    const baseURL = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress";
-    const params = new URLSearchParams({
-        address: address,
-        benchmark: "Public_AR_Current",
-        vintage: "Current_Current",
-        format: "json"
-    });
+    const apiKey = "AIzaSyC7XuWDxJC-QDxw9dD9oA4UQ4iJv432t8w"; // 🔐 <- Replace with your actual API key
+    const encodedAddress = encodeURIComponent(address);
+    const url = `https://www.googleapis.com/civicinfo/v2/representatives?address=${encodedAddress}&key=${apiKey}&levels=administrativeArea1&roles=legislatorLowerBody&roles=legislatorUpperBody`;
 
-    fetch(`${baseURL}?${params}`)
+    fetch(url)
         .then(response => response.json())
         .then(data => {
-            const geo = data.result?.geographies;
-            const house = geo?.["State Legislative Districts - Lower"]?.[0]?.NAME;
-            const senate = geo?.["State Legislative Districts - Upper"]?.[0]?.NAME;
+            const offices = data.offices || [];
+            const officials = data.officials || [];
 
-            if (!house || !senate) {
-                confirmationEl.textContent = "Couldn't find districts for that address.";
+            let houseRep = null;
+            let senateRep = null;
+
+            offices.forEach(office => {
+                if (office.name.includes("State House")) {
+                    houseRep = officials[office.officialIndices[0]];
+                } else if (office.name.includes("State Senate")) {
+                    senateRep = officials[office.officialIndices[0]];
+                }
+            });
+
+            if (!houseRep || !senateRep) {
+                confirmationEl.textContent = "Could not find state-level legislators for that address.";
                 return;
             }
 
-            confirmationEl.textContent = `🏛️ House District: ${house} | Senate District: ${senate}`;
-
-            // Now load local rep info from districts.json
-            fetch("districts.json")
-                .then(resp => resp.json())
-                .then(districtData => {
-                    const rep = districtData.house[house];
-                    const sen = districtData.senate[senate];
-
-                    if (rep && sen) {
-                        alert(`Your Rep is ${rep.name} (${rep.phone})\nYour Senator is ${sen.name} (${sen.phone})`);
-                        // Optionally: store in sessionStorage if needed
-                    } else {
-                        alert("Found district numbers, but couldn’t match to names in database.");
-                    }
-                });
+            confirmationEl.innerHTML = `
+                🏛️ House: <strong>${houseRep.name}</strong><br>
+                📞 ${houseRep.phones?.[0] || "No phone listed"}<br><br>
+                🏛️ Senate: <strong>${senateRep.name}</strong><br>
+                📞 ${senateRep.phones?.[0] || "No phone listed"}
+            `;
         })
-        .catch(err => {
-            console.error("Error in geocoder:", err);
-            confirmationEl.textContent = "Failed to retrieve district info.";
+        .catch(error => {
+            console.error("Google Civic API Error:", error);
+            confirmationEl.textContent = "Failed to retrieve representative information.";
         });
 }
 
